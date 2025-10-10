@@ -20,5 +20,4 @@ Panel de control para la administración de la herramienta de Business Intellige
 3. Realizar las operaciones deseadas
 
 ## Autor
-- Adn
-
+- Adn Software
