@@ -1,0 +1,999 @@
+{
+  "ReportVersion": "2024.3.6",
+  "ReportGuid": "24a2e7a37671062110f8770fda452d80",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportFile": "e.mrt",
+  "ReportCreated": "/Date(1729096412000-0400)/",
+  "ReportChanged": "/Date(1729110123000-0400)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "Dictionary": {
+    "Resources": {
+      "0": {
+        "Name": "Hotel Revenue",
+        "Alias": "Hotel Revenue",
+        "Type": "Excel",
+        "Image": "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"
+      }
+    },
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "Statistics",
+        "Alias": "Statistics",
+        "Columns": {
+          "0": {
+            "Name": "ADR",
+            "NameInSource": "ADR",
+            "Alias": "ADR",
+            "Type": "System.Double"
+          },
+          "1": {
+            "Name": "ARI",
+            "NameInSource": "ARI",
+            "Alias": "ARI",
+            "Type": "System.Double"
+          },
+          "2": {
+            "Name": "Category",
+            "NameInSource": "Category",
+            "Alias": "Category",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "EBITDA",
+            "NameInSource": "EBITDA",
+            "Alias": "EBITDA",
+            "Type": "System.Double"
+          },
+          "4": {
+            "Name": "MCPB",
+            "NameInSource": "MCPB",
+            "Alias": "MCPB",
+            "Type": "System.Double"
+          },
+          "5": {
+            "Name": "Monthes",
+            "NameInSource": "Monthes",
+            "Alias": "Monthes",
+            "Type": "System.String"
+          },
+          "6": {
+            "Name": "OCC",
+            "NameInSource": "OCC",
+            "Alias": "OCC",
+            "Type": "System.Double"
+          },
+          "7": {
+            "Name": "OCCPercent",
+            "NameInSource": "OCCPercent",
+            "Alias": "OCCPercent",
+            "Type": "System.Double"
+          },
+          "8": {
+            "Name": "RGI",
+            "NameInSource": "RGI",
+            "Alias": "RGI",
+            "Type": "System.Double"
+          },
+          "9": {
+            "Name": "Region",
+            "NameInSource": "Region",
+            "Alias": "Region",
+            "Type": "System.String"
+          },
+          "10": {
+            "Name": "RegionKey",
+            "NameInSource": "RegionKey",
+            "Alias": "RegionKey",
+            "Type": "System.String"
+          },
+          "11": {
+            "Name": "RevPAR",
+            "NameInSource": "RevPAR",
+            "Alias": "RevPAR",
+            "Type": "System.Double"
+          },
+          "12": {
+            "Name": "Revenue",
+            "NameInSource": "Revenue",
+            "Alias": "Revenue",
+            "Type": "System.Double"
+          },
+          "13": {
+            "Name": "RevenueByCategory",
+            "NameInSource": "RevenueByCategory",
+            "Alias": "RevenueByCategory",
+            "Type": "System.Double"
+          },
+          "14": {
+            "Name": "RevenueOfLastPeriod",
+            "NameInSource": "RevenueOfLastPeriod",
+            "Alias": "RevenueOfLastPeriod",
+            "Type": "System.Double"
+          },
+          "15": {
+            "Name": "SearchSource",
+            "NameInSource": "SearchSource",
+            "Alias": "SearchSource",
+            "Type": "System.String"
+          },
+          "16": {
+            "Name": "SumOfBooked",
+            "NameInSource": "SumOfBooked",
+            "Alias": "SumOfBooked",
+            "Type": "System.Double"
+          }
+        },
+        "NameInSource": "Hotel Revenue.Statistics"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiExcelDatabase",
+        "Name": "Hotel Revenue",
+        "Alias": "Hotel Revenue",
+        "PathData": "resource://Hotel Revenue"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiDashboard",
+      "Name": "Dashboard",
+      "Guid": "a8858888757f432c808411394962de11",
+      "Expressions": {
+        "0": {
+          "Name": "BackColor",
+          "Expression": "\"#1a2035\""
+        }
+      },
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Brush": "solid:26,32,53",
+      "Components": {
+        "0": {
+          "Ident": "StiTextElement",
+          "Name": "Text2",
+          "Guid": "5345af9b7b464c8e822ce206edff8035",
+          "ClientRectangle": "-6,-5,491,58",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "0,0,1200,60",
+          "AltTitleVisible": false,
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "DashboardInteraction": {
+            "Ident": "Text",
+            "OnHover": "ShowToolTip",
+            "OnClick": "OpenHyperlink",
+            "HyperlinkDestination": "NewTab"
+          },
+          "ForeColor": "White",
+          "Text": "<font face=\"Arial\" size=\"24\" ><text-align=\"Center\"><b>Dashboard Template</b></text-align></font>",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "Title": {
+            "Text": "Text",
+            "Visible": false
+          }
+        },
+        "1": {
+          "Ident": "StiIndicatorElement",
+          "Name": "Indicator6",
+          "Guid": "5332cab5f47941f7a918c53ff122c793",
+          "ClientRectangle": "0,0,0,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Margin": {
+            "Bottom": 0
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "0,60,240,180",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "TextFormat": {
+            "Ident": "StiPercentageFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "Symbol": "%"
+          },
+          "TargetFormat": {
+            "Ident": "StiPercentageFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "Symbol": "%"
+          },
+          "Value": {
+            "Ident": "ValueIndicatorMeter",
+            "Key": "f098484928755985e5ae9a18c84df19f",
+            "Expression": "1 - Sum(Statistics.RevenueOfLastPeriod)/Sum(Statistics.Revenue)",
+            "Label": "Revenue"
+          },
+          "Title": {
+            "Text": "Revenue",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ForeColor": "255,255,255",
+          "Font": ";13;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlBeSGJRemoJnBucWpSZWqwE4sXycsUCALmUbWY5AAAAWklQ",
+          "Style": "Custom",
+          "CustomStyleName": "Indicator",
+          "Icon": "TriangleUp",
+          "IconAlignment": "Left",
+          "IndicatorConditions": {
+            "0": {
+              "Ident": "StiIndicatorElementCondition",
+              "Condition": "LessThan",
+              "Value": "0",
+              "IconColor": "237,28,36",
+              "Icon": "TriangleDown",
+              "Permissions": "Icon",
+              "IconAlignment": "Left"
+            }
+          },
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "DashboardInteraction": {
+            "Ident": "Indicator",
+            "OnHover": "ShowToolTip",
+            "OnClick": "None",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false,
+            "ShowViewDataButton": false
+          }
+        },
+        "2": {
+          "Ident": "StiIndicatorElement",
+          "Name": "Indicator7",
+          "Guid": "ff396b879d4b4a919eac2c0c149f59f5",
+          "ClientRectangle": "0,0,0,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Margin": {
+            "Top": 0,
+            "Right": 0
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "0,240,120,100",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "TextFormat": {
+            "Ident": "StiCurrencyFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "TargetFormat": {
+            "Ident": "StiPercentageFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "Symbol": "%"
+          },
+          "Value": {
+            "Ident": "ValueIndicatorMeter",
+            "Key": "8b6f0dbbe1fc91f56a4a45612da169be",
+            "Expression": "Sum(Statistics.Revenue)",
+            "Label": "Revenue"
+          },
+          "Title": {
+            "Text": "Current Year",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ForeColor": "255,255,255",
+          "Font": ";13;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlBeSGJRemoJnBucWpSZWqwE4sXycsUCALmUbWY5AAAAWklQ",
+          "Style": "Custom",
+          "CustomStyleName": "Indicator",
+          "IconAlignment": "None",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "DashboardInteraction": {
+            "Ident": "Indicator",
+            "OnHover": "ShowToolTip",
+            "OnClick": "None",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false,
+            "ShowViewDataButton": false
+          }
+        },
+        "3": {
+          "Ident": "StiIndicatorElement",
+          "Name": "Indicator8",
+          "Guid": "4085d774a1494bdc9e4d8e9e8ffc64e3",
+          "ClientRectangle": "0,0,0,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Margin": {
+            "Left": 0,
+            "Top": 0
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "120,240,120,100",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "TextFormat": {
+            "Ident": "StiCurrencyFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "TargetFormat": {
+            "Ident": "StiPercentageFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "Symbol": "%"
+          },
+          "Value": {
+            "Ident": "ValueIndicatorMeter",
+            "Key": "a1841c0667a747f8b2498fcd410095bd",
+            "Expression": "Sum(Statistics.RevenueOfLastPeriod)",
+            "Label": "SumOfLastYearRevenue"
+          },
+          "Title": {
+            "Text": "Last Year",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ForeColor": "255,255,255",
+          "Font": ";13;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlBeSGJRemoJnBucWpSZWqwE4sXycsUCALmUbWY5AAAAWklQ",
+          "Style": "Custom",
+          "CustomStyleName": "Indicator",
+          "IconAlignment": "None",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "DashboardInteraction": {
+            "Ident": "Indicator",
+            "OnHover": "ShowToolTip",
+            "OnClick": "None",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false,
+            "ShowViewDataButton": false
+          }
+        },
+        "4": {
+          "Ident": "StiIndicatorElement",
+          "Name": "Indicator9",
+          "Guid": "dfe881bea6064cf1aaff3cdb9a9d03e6",
+          "ClientRectangle": "0,0,0,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "240,60,200,140",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "TextFormat": {
+            "Ident": "StiCurrencyFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "TargetFormat": {
+            "Ident": "StiPercentageFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "Symbol": "%"
+          },
+          "Value": {
+            "Ident": "ValueIndicatorMeter",
+            "Key": "141f1438dacc70706b048fafd734f8d9",
+            "Expression": "Avg(Statistics.MCPB)",
+            "Label": "MCPB"
+          },
+          "Title": {
+            "Text": "MCPB",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ForeColor": "255,255,255",
+          "Font": ";13;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlBeSGJRemoJnBucWpSZWqwE4sXycsUCALmUbWY5AAAAWklQ",
+          "Style": "Custom",
+          "CustomStyleName": "Indicator",
+          "IconAlignment": "None",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "DashboardInteraction": {
+            "Ident": "Indicator",
+            "OnHover": "ShowToolTip",
+            "OnClick": "None",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false,
+            "ShowViewDataButton": false
+          }
+        },
+        "5": {
+          "Ident": "StiIndicatorElement",
+          "Name": "Indicator10",
+          "Guid": "019d39bedbf0400bbfc8ee87df79032f",
+          "ClientRectangle": "0,0,0,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "240,200,200,140",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "TextFormat": {
+            "Ident": "StiCurrencyFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits"
+          },
+          "TargetFormat": {
+            "Ident": "StiPercentageFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "Symbol": "%"
+          },
+          "Value": {
+            "Ident": "ValueIndicatorMeter",
+            "Key": "78e8f8ca28ee7bd984fbec42a79a8959",
+            "Expression": "Avg(Statistics.EBITDA)",
+            "Label": "EBITDA"
+          },
+          "Title": {
+            "Text": "EBITDA",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ForeColor": "255,255,255",
+          "Font": ";13;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlBeSGJRemoJnBucWpSZWqwE4sXycsUCALmUbWY5AAAAWklQ",
+          "Style": "Custom",
+          "CustomStyleName": "Indicator",
+          "IconAlignment": "None",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "DashboardInteraction": {
+            "Ident": "Indicator",
+            "OnHover": "ShowToolTip",
+            "OnClick": "None",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false,
+            "ShowViewDataButton": false
+          }
+        },
+        "6": {
+          "Ident": "StiChartElement",
+          "Name": "Chart1",
+          "Guid": "11a7c7707b5145dfa48c316580a498b1",
+          "ClientRectangle": "0,0,0,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "940,60,260,280",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "Values": {
+            "0": {
+              "Ident": "ValueChartMeter",
+              "Key": "ace30dc10284b13b4f0b3eb4d41638e4",
+              "Expression": "Sum(Statistics.SumOfBooked)",
+              "Label": "SumOfBooked",
+              "SeriesType": "Pie"
+            }
+          },
+          "Arguments": {
+            "0": {
+              "Ident": "ArgumentChartMeter",
+              "Key": "48589c68555b414287a1520e9ecfbf3e",
+              "Expression": "Statistics.SearchSource",
+              "Label": "Lead"
+            }
+          },
+          "UserViewStates": {
+            "0": {
+              "Key": "ec28919b9f2b44aa89580204646d487c",
+              "Name": "View 1",
+              "State": "H4sIAAAAAAAEAI2QvU7DMBRGdyTeIcoEEkKJExOHjbYIVRQYghjYbOe6iUjiyD+iVZV3xya0RKggJvu737nDPbvTkyAIX2hjQYfXwc5HN4i+/y4tS+iMm4zcvKLKPIABFV4ckHvYeoDhXEQ8QSnJkpTwiKGYkCSLkpIIjgSabNxuegVa17Lzi4VtzwpDTa1NzfWli09iJuUblOeTnRVl0Hzh+365mAAFqBr087YHTy2kXVedNVOgku+voKQ/Nryj/Y/q0TbNoRqbwT/DJxbeqLVtnYt/qNqjf9lKCSY5vyIYY5bGKSIZjTGKIAcumEjgd1sTU0AVrwppFYdjplZAyyOXzGVj266o6GhqJjcOGj4Ai7ScaQ4CAABaSVA=",
+              "SeriesType": "Doughnut"
+            },
+            "1": {
+              "Key": "341d58904eee4c25bdc75012302f244c",
+              "Name": "View 2",
+              "State": "H4sIAAAAAAAEAI2QzUrEMBRG94LvULJSEGnTxqbunFFkcNSBigt3aXpji21T8oMzDH13E+uMRUZxlXz3O3dxz/b4KAjQM2ssaHQZbH10g/D779KihM64ycjNK6bMPRhQ6GyP3MHGAwXJRMhjnNA0TigPCxxRGqdhXFLBscCTjZt1r0DrWnZ+MbftSW6YqbWpuT538VHMpHyD8nSys2QFNF/4rl9cT4AcVA36adODp1Y1TLtKvr+Akv5OdMv6H9WDbZp9NTaDf4ZPDF2pV9s6Df+wtEP/EpVQQjN+QQkhRRIlmKYsIjiEDLgoRAy/i5pIAqZ4lUurOByStARWHrhkLhvbdnnFRkkzuXbQ8AElNbTUCQIAAFpJUA==",
+              "SeriesType": "Pie"
+            }
+          },
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false
+          },
+          "Title": {
+            "Text": "Booking Source",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ManuallyEnteredChartMeter": {
+            "Ident": "ValueChartMeter",
+            "Key": "ddaecf0e213b41f58fdf14c095d5847e"
+          },
+          "ArgumentFormat": {
+            "Ident": "StiGeneralFormatService"
+          },
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
+          },
+          "Legend": {
+            "HorAlignment": "Center",
+            "Visible": false,
+            "Visibility": "False",
+            "Direction": "RightToLeft",
+            "Columns": 3
+          },
+          "Area": {
+            "SideBySide": true,
+            "GridLinesHor": {
+              "Color": "Transparent"
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            },
+            "Indicator": {
+              "Title": {
+                "Text": ""
+              }
+            }
+          },
+          "Labels": {
+            "Position": "Center"
+          },
+          "Options3D": {
+            "Opacity": 1,
+            "Lighting": "Gradient"
+          },
+          "Style": "Custom",
+          "CustomStyleName": "Chart",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlCea14KqoBzTn5xKqqQT345qoBHZnoGqohjUXppbmpeCVwgPBWoBsENTi3KTC1WAvFiebliAcwjTseRAAAAWklQ",
+          "SelectedViewStateKey": "341d58904eee4c25bdc75012302f244c"
+        },
+        "7": {
+          "Ident": "StiChartElement",
+          "Name": "Chart2",
+          "Guid": "39203a97dcf140dfb227e003fb479bdf",
+          "ClientRectangle": "0,0,0,0",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "440,340,760,220",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "Values": {
+            "0": {
+              "Ident": "ValueChartMeter",
+              "Key": "69aa548186e01909ab725975038b2879",
+              "Expression": "Sum(Statistics.ARI)",
+              "Label": "ARI",
+              "SeriesType": "Area"
+            },
+            "1": {
+              "Ident": "ValueChartMeter",
+              "Key": "25f5a0b7616b8f95d10db68966fa1a3c",
+              "Expression": "Sum(Statistics.OCC)",
+              "Label": "OCC",
+              "SeriesType": "Area"
+            }
+          },
+          "Arguments": {
+            "0": {
+              "Ident": "ArgumentChartMeter",
+              "Key": "5e97f2e298e439fb94ec8b7cc0afc834",
+              "Expression": "MonthIdent(Statistics.Monthes)",
+              "Label": "Monthes"
+            }
+          },
+          "UserViewStates": {
+            "0": {
+              "Key": "81cb660952194507a60c293aaa18dcea",
+              "Name": "View 2",
+              "State": "H4sIAAAAAAAEAJ2RT0vDMBiH74LfofSkINIsaU28aREpOgU7PHhL0je22H80KW6MfXeTdc4idQxPSX6/5yV5yPr0xPP8V172oP1rb+2ONgh+9vaUZFAbmwxcnPPOzMFA51/skQdYOQCiIIsiyUKBKUEIC8UoqEwFHAIhFR5N3C3bDrQumtoNpn11lhpuCm0KqS9vXpLzEfvIBZQOs/koTqErQC9WLWy7Dvi4zJvPN+gap+Xf8/ZX9dSX5b4ams2O8NE/7YUIQkk5YYQJQmZEcCkZYlIRleHoCo61f47jSXubH7bfebhlkLHxe1/Z9x/xud/oIcNQIsqlEgpTTDIkBUQSA2CGKFKzSPxpOG9qk2+vGotuU9CTsnEO8iOpF0UFE15xU/ZVneZ8sL9tlhbafAFq2JkOzgIAAFpJUA==",
+              "SeriesType": "Area"
+            },
+            "1": {
+              "Key": "dfdcabde144b431ba63f6f9abd601be6",
+              "Name": "View 1",
+              "State": "H4sIAAAAAAAEAJ2RQUvDMBTH74LfYfSkINIsaU28zSJSdApWPHhL0hdbbJvSpDgZ++4mq5tFqgxPyfu/3yPvR9bHR7NZ8MyrHkxwOVv70gXh991VaQ6NdcnAJQXv7BIsdMHZHrmFDw9AHOZxLFkkMCUIYaEYBZWrkEMopMKjietV24ExpW78YNbXJ5nltjS2lOZ88Ziejtg7LqDymMtHcVbo9xfotN88uOHtj9Z9X1X71tDZfBEB+qegEGEkKSeMMEHInAguJUNMKqJyHF/AoYIPSTIp6PLdqv4Y9g0W3WtfuxUP+KId+pdEJBHlUgmFKSY5kgJiiQEwQxSpeSx+lVjqxhbbp8Yu2xTMpE9SgHxLm6eyhgmvRFd93WQFb8HDV3rloM0n1lO+eZQCAABaSVA="
+            }
+          },
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false
+          },
+          "Title": {
+            "Text": "Occupancy and Average Rate Index ",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ManuallyEnteredChartMeter": {
+            "Ident": "ValueChartMeter",
+            "Key": "19d84c179ae346bcba9925b67f3d3af4"
+          },
+          "ArgumentFormat": {
+            "Ident": "StiGeneralFormatService"
+          },
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
+          },
+          "XAxis": {
+            "Title": {
+              "Visible": false
+            }
+          },
+          "YAxis": {
+            "Title": {
+              "Visible": false
+            }
+          },
+          "Legend": {
+            "HorAlignment": "RightOutside",
+            "VertAlignment": "Center",
+            "Direction": "RightToLeft"
+          },
+          "Area": {
+            "SideBySide": true,
+            "GridLinesHor": {
+              "Color": "Transparent"
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            },
+            "Indicator": {
+              "Title": {
+                "Text": ""
+              }
+            }
+          },
+          "Marker": {
+            "Visible": "True"
+          },
+          "Labels": {
+            "Position": "None"
+          },
+          "Options3D": {
+            "Opacity": 1,
+            "Lighting": "Gradient"
+          },
+          "Style": "Custom",
+          "CustomStyleName": "Chart",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlCea14KqoBzTn5xKqqQT345qoBHZnoGqohjUXppbmpeCVwgPBWoBsENTi3KTC1WAvFiebliAcwjTseRAAAAWklQ",
+          "SelectedViewStateKey": "81cb660952194507a60c293aaa18dcea"
+        },
+        "8": {
+          "Ident": "StiChartElement",
+          "Name": "Chart3",
+          "Guid": "6e22afa586ff4c13bff3a43d450663e5",
+          "ClientRectangle": "-3,256,488,200",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "440,560,760,220",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "Values": {
+            "0": {
+              "Ident": "ValueChartMeter",
+              "Key": "8a831a512050b3cdef8882ec7640526a",
+              "Expression": "Sum(Statistics.ADR)",
+              "Label": "ADR",
+              "SeriesType": "StackedColumn"
+            },
+            "1": {
+              "Ident": "ValueChartMeter",
+              "Key": "14a947fc80ce85a36922aead5c53d9cc",
+              "Expression": "Sum(Statistics.RevPAR)",
+              "Label": "RevPAR",
+              "SeriesType": "StackedColumn"
+            }
+          },
+          "Arguments": {
+            "0": {
+              "Ident": "ArgumentChartMeter",
+              "Key": "6996dbec1180e7b1325d2b598891710a",
+              "Expression": "MonthIdent(Statistics.Monthes)",
+              "Label": "Monthes"
+            }
+          },
+          "UserViewStates": {
+            "0": {
+              "Key": "dc4a1d54abe840fc92f3f465bc5b1ac1",
+              "Name": "View 1",
+              "State": "H4sIAAAAAAAEAJ2Ry07DMBBF90j8Q+QVSAjlZcdhFwKLCiqhpmI/icckah5V7KBWVf8dJ4GSRUCFlT3XZ8Y69uHywrLIK5QdKnJnHfrSBPb33lQLgbU2ycjFObR6iRpbcnNCnnDfA6l0mWCUShGg7/IQkEsqJEUXqOASJh2Pu22LShVN3TcmXXWVaNCF0kWmbqOH1fWEfYYUyx4z+SROsC1QrfdbHEZoyDYo4qbsqpqM0PETJs4/hShS6QU+Z9ThvshY6NgeZSGkaSiRe865Qit8f4nmncajv2n1y+hGovatq4zOGd/3hf4mzDJmOwKDFDLmUxApGHPue8K1AVzb/lF42dQ6H66aeg8pqlnxOMdss6jXRYUzXqNwksP4DPfNzkDHD6ipxfCwAgAAWklQ",
+              "SeriesType": "StackedColumn"
+            },
+            "1": {
+              "Key": "de8a12b129a743c2a99eb51ea0fe144d",
+              "Name": "View 2",
+              "State": "H4sIAAAAAAAEAJ2RTUvDQBCG74L/IeSkIJKP2d3EW40eihakKd4nm6kJ5qNkN9JS+t/dJFpziBI87c47z8zysMfLC8uyX7FoSdl31rErTeD83E21TKnSJhm4KMNGr0hTY9+ckSc6dIAfSgwAfI6CgxsAJsTYNpCe74ZiC8lo4nG/a0ipvK66wbgtr2KNOlc6l+p28bC+HrHPZk/RYSYfxTE1OanNYUd9ryG0h97pi7Hdf3qE5DEPPC4RAARHhIAx4IyE4woBMNdjTR8vi2mVoTXLpjsGJRO/taWxmPFZ3+hfnlxyx01JJCg5MEwTZG4QgJ96DqLnOL96rupKZ/1TY90+JTXpG2Uk35fVJi9pwiuqi7as4gwH+/t6b6DTJ8hjsTCeAgAAWklQ",
+              "SeriesType": "Area"
+            }
+          },
+          "DashboardInteraction": {
+            "Ident": "Chart",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab",
+            "ShowFullScreenButton": false,
+            "ShowSaveButton": false
+          },
+          "Title": {
+            "Text": "Revenue per Available Room and Average Daily Rate",
+            "ForeColor": "White",
+            "Font": ";13.875;Bold;",
+            "HorAlignment": "Center"
+          },
+          "ManuallyEnteredChartMeter": {
+            "Ident": "ValueChartMeter",
+            "Key": "d99179ef15b04cb3b3c70d15331bfc61"
+          },
+          "ArgumentFormat": {
+            "Ident": "StiGeneralFormatService"
+          },
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 2,
+            "GroupSeparator": ",",
+            "State": "DecimalDigits, Abbreviation"
+          },
+          "XAxis": {
+            "Title": {
+              "Visible": false
+            }
+          },
+          "YAxis": {
+            "Title": {
+              "Visible": false
+            }
+          },
+          "Legend": {
+            "HorAlignment": "RightOutside",
+            "VertAlignment": "Center",
+            "Direction": "RightToLeft"
+          },
+          "Area": {
+            "SideBySide": true,
+            "GridLinesHor": {
+              "Color": "Transparent"
+            },
+            "GridLinesVert": {
+              "Color": "Transparent"
+            },
+            "InterlacingHor": {
+              "Color": "Transparent"
+            },
+            "InterlacingVert": {
+              "Color": "Transparent"
+            },
+            "Indicator": {
+              "Title": {
+                "Text": ""
+              }
+            }
+          },
+          "Marker": {
+            "Visible": "True"
+          },
+          "Labels": {
+            "Position": "None"
+          },
+          "Options3D": {
+            "Opacity": 1,
+            "Lighting": "Gradient"
+          },
+          "Style": "Custom",
+          "CustomStyleName": "Chart",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "ManuallyEnteredData": "H4sIAAAAAAAEAIvm5VJQiAYRCgpKYYk5palKOlCea14KqoBzTn5xKqqQT345qoBHZnoGqohjUXppbmpeCVwgPBWoBsENTi3KTC1WAvFiebliAcwjTseRAAAAWklQ",
+          "SelectedViewStateKey": "dc4a1d54abe840fc92f3f465bc5b1ac1"
+        },
+        "9": {
+          "Ident": "StiRegionMapElement",
+          "Name": "RegionMapElement1",
+          "Guid": "3deed0b9c56f34411c62f1fe0f6c3250",
+          "ClientRectangle": "-3,455,488,347",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "0,340,440,440",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "DashboardInteraction": {
+            "Ident": "RegionMap",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
+          },
+          "Title": {
+            "Text": "Map Venezuela",
+            "ForeColor": "255,255,255",
+            "Font": ";12;Bold;",
+            "HorAlignment": "Center"
+          },
+          "MapData": "[{\"key\":\"Amazonas\",\"name\":\"Amazonas\",\"value\":\"5\",\"color\":\"#90c2a8\"},{\"key\":\"Anzoátegui\",\"name\":\"Anzoátegui\",\"color\":\"#da5459\"},{\"key\":\"Apure\",\"name\":\"Apure\",\"color\":\"#efca70\"},{\"key\":\"Aragua\",\"name\":\"Aragua\",\"color\":\"#63b8e3\"},{\"key\":\"Barinas\",\"name\":\"Barinas\",\"color\":\"#ab92c4\"},{\"key\":\"Bolívar\",\"name\":\"Bolívar\",\"value\":\"36\",\"color\":\"#6d58d9\"},{\"key\":\"Carabobo\",\"name\":\"Carabobo\",\"color\":\"#fb6b40\"},{\"key\":\"Cojedes\",\"name\":\"Cojedes\",\"color\":\"#e34e2e\"},{\"key\":\"DeltaAmacuro\",\"name\":\"Delta Amacuro\",\"color\":\"#90c2a8\"},{\"key\":\"DependenciasFederales\",\"name\":\"Dependencias Federales\",\"color\":\"#da5459\"},{\"key\":\"DistritoCapital\",\"name\":\"Distrito Capital\",\"color\":\"#efca70\"},{\"key\":\"Falcón\",\"name\":\"Falcón\",\"color\":\"#63b8e3\"},{\"key\":\"Guárico\",\"name\":\"Guárico\",\"color\":\"#ab92c4\"},{\"key\":\"Lara\",\"name\":\"Lara\",\"value\":\"8\",\"color\":\"#6d58d9\"},{\"key\":\"Mérida\",\"name\":\"Mérida\",\"color\":\"#fb6b40\"},{\"key\":\"Miranda\",\"name\":\"Miranda\",\"value\":\"18\",\"color\":\"#e34e2e\"},{\"key\":\"Monagas\",\"name\":\"Monagas\",\"value\":\"11\",\"color\":\"#86b89e\"},{\"key\":\"NuevaEsparta\",\"name\":\"Nueva Esparta\",\"color\":\"#d04a4f\"},{\"key\":\"Portuguesa\",\"name\":\"Portuguesa\",\"value\":\"5\",\"color\":\"#e5c066\"},{\"key\":\"Sucre\",\"name\":\"Sucre\",\"color\":\"#59aed9\"},{\"key\":\"Táchira\",\"name\":\"Táchira\",\"value\":\"20\",\"color\":\"#a188ba\"},{\"key\":\"Trujillo\",\"name\":\"Trujillo\",\"color\":\"#634ecf\"},{\"key\":\"Vargas\",\"name\":\"Vargas\",\"value\":\"3\",\"color\":\"#f16136\"},{\"key\":\"Yaracuy\",\"name\":\"Yaracuy\",\"color\":\"#d94424\"},{\"key\":\"Zulia\",\"name\":\"Zulia\",\"value\":\"9\",\"color\":\"#90c2a8\"}]",
+          "ShowBubble": true,
+          "Language": "EN",
+          "MapIdent": "Venezuela",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;",
+          "ValueFormat": {
+            "Ident": "StiNumberFormatService",
+            "DecimalSeparator": ",",
+            "DecimalDigits": 1,
+            "GroupSeparator": ".",
+            "State": "DecimalDigits, Abbreviation"
+          }
+        },
+        "10": {
+          "Ident": "StiTableElement",
+          "Name": "TableElement1",
+          "Guid": "45f46a5afec99fb8805e2a5d383cd876",
+          "ClientRectangle": "-4,57,488,200",
+          "Interaction": {
+            "Ident": "StiInteraction"
+          },
+          "Border": ";;;;",
+          "BackColor": "32,41,64",
+          "AltClientRectangle": "440,60,500,280",
+          "AltParentKey": "a8858888757f432c808411394962de11",
+          "Columns": {
+            "0": {
+              "Ident": "DimensionColumn",
+              "Key": "5b14182e1a0da490e4047f364cc95644",
+              "Expression": "Statistics.Category",
+              "Label": "Category",
+              "DashboardInteraction": {
+                "Ident": "TableColumn",
+                "OnHover": "None",
+                "OnClick": "None",
+                "HyperlinkDestination": "NewTab"
+              },
+              "Size": {
+                "MinWidth": 30,
+                "MaxWidth": 300
+              }
+            },
+            "1": {
+              "Ident": "MeasureColumn",
+              "Key": "98b5ef5357831142770713534208e936",
+              "Expression": "Sum(Statistics.Revenue)",
+              "Label": "Revenue",
+              "HorAlignment": "Right",
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "DecimalSeparator": ",",
+                "DecimalDigits": 2,
+                "GroupSeparator": "."
+              },
+              "ShowTotalSummary": true,
+              "DashboardInteraction": {
+                "Ident": "TableColumn",
+                "OnHover": "None",
+                "OnClick": "None",
+                "HyperlinkDestination": "NewTab"
+              }
+            },
+            "2": {
+              "Ident": "MeasureColumn",
+              "Key": "d8529a5dd269fea4066c85d8dff64587",
+              "Expression": "Sum(Statistics.OCCPercent)",
+              "Label": "OCCPercent",
+              "HorAlignment": "Right",
+              "TextFormat": {
+                "Ident": "StiNumberFormatService",
+                "DecimalSeparator": ",",
+                "DecimalDigits": 2,
+                "GroupSeparator": "."
+              },
+              "ShowTotalSummary": true,
+              "DashboardInteraction": {
+                "Ident": "TableColumn",
+                "OnHover": "None",
+                "OnClick": "None",
+                "HyperlinkDestination": "NewTab"
+              }
+            }
+          },
+          "HeaderFont": ";10;;",
+          "FooterFont": ";10;;",
+          "Title": {
+            "Text": "Revenue and OCC by Category",
+            "ForeColor": "255,255,255",
+            "Font": ";14;Bold;",
+            "HorAlignment": "Center"
+          },
+          "DashboardInteraction": {
+            "Ident": "Table",
+            "OnHover": "ShowToolTip",
+            "OnClick": "ApplyFilter",
+            "HyperlinkDestination": "NewTab"
+          },
+          "SizeMode": "Fit",
+          "CornerRadius": "0, 0, 0, 0",
+          "Shadow": ";;;"
+        }
+      },
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Width": 480,
+      "Height": 800,
+      "Style": "DarkBlue",
+      "Border": ";;2;;;;;solid:Black",
+      "BackColor": "26,32,53",
+      "DashboardViewMode": "Mobile",
+      "AltSize": "1200,780"
+    }
+  }
+}
