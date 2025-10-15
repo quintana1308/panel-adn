@@ -14,8 +14,9 @@ setcookie('cors-cookie', 'my-site-cookie', $cookie_options);
 //error_reporting(0);
 class Conexion2{
 	private $conect;
+	private static $instance = null;
 
-	public function __construct(){
+	private function __construct(){
 
 		$connectionString = "mysql:host=".DB_HOST_PRINCIPAL.";dbname=".DB_NAME_PRINCIPAL.";charset=".DB_CHARSET_PRINCIPAL;
 		try{
@@ -28,8 +29,24 @@ class Conexion2{
 		}
 	}
 
+	public static function getInstance(){
+		if(self::$instance === null){
+			self::$instance = new self();
+		}
+		return self::$instance;
+	}
+
 	public function conect(){
 		return $this->conect;
+	}
+
+	public function closeConnection(){
+		$this->conect = null;
+		self::$instance = null;
+	}
+
+	public function __destruct(){
+		$this->conect = null;
 	}
 }
 

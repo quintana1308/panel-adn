@@ -14,8 +14,9 @@ setcookie('cors-cookie', 'my-site-cookie', $cookie_options);
 //error_reporting(0);
 class Conexion4{
 	private $conect;
+	private static $instance = null;
 
-	public function __construct(){
+	private function __construct(){
 		$connectionString = "mysql:host=".DB_HOST_DINAMICO.";dbname=".DB_NAME_DINAMICO.";charset=".DB_CHARSET_DINAMICO;
 		try{
 			$this->conect = new PDO($connectionString, DB_USER_DINAMICO, DB_PASSWORD_DINAMICO);
@@ -27,8 +28,24 @@ class Conexion4{
 		}
 	}
 
+	public static function getInstance(){
+		if(self::$instance === null){
+			self::$instance = new self();
+		}
+		return self::$instance;
+	}
+
 	public function conect(){
 		return $this->conect;
+	}
+
+	public function closeConnection(){
+		$this->conect = null;
+		self::$instance = null;
+	}
+
+	public function __destruct(){
+		$this->conect = null;
 	}
 }
 

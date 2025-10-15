@@ -178,9 +178,11 @@ class DashboardModel extends Mysql
 		exec('php artisan config:clear');
 		exec('php artisan cache:clear');
 
-		$mysql4 = new Mysql4();
-
 		$nombreBaseDeDatos = $newdatabase;
+
+		// Crear instancia temporal de Mysql4 para operaciones en base de datos dinámica
+		require_once("Libraries/Core/Mysql4.php");
+		$mysql4 = new Mysql4();
 
 		$query_insert  = "INSERT INTO $nombreBaseDeDatos.dashboard(DESCRIPCION, BD) 
 			VALUES(?,?)";

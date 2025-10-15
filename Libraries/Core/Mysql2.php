@@ -8,14 +8,16 @@
 
 		function __construct()
 		{
-			$this->conexion = new Conexion2();
-			$this->conexion = $this->conexion->conect();
+			$conexionInstance = Conexion2::getInstance();
+			$this->conexion = $conexionInstance->conect();
 
 			$sql_mode = $this->conexion->prepare("SET sql_mode = ''");
 			$sql_mode->execute();
+			$sql_mode->closeCursor();
 			
 			$set_session = $this->conexion->prepare("SET SESSION group_concat_max_len = 1000000");
             $set_session->execute();
+			$set_session->closeCursor();
 		}
 
 		//Insertar un registro
@@ -33,6 +35,7 @@
 			} else {
 				$lastInsert = 0;
 			}
+			$insert->closeCursor();
 			return $lastInsert;
 		}
 		
@@ -47,6 +50,7 @@
 	        }else{
 	        	$lastInsert = 0;
 	        }
+			$insert->closeCursor();
 	        return $lastInsert; 
 		}
 		//Busca un registro
@@ -57,6 +61,7 @@
 				$result = $this->conexion->prepare($this->strquery);
 				$result->execute();
 				$data = $result->fetch(PDO::FETCH_ASSOC);
+				$result->closeCursor();
 
 				return $data;
 				
@@ -76,6 +81,7 @@
 				$result = $this->conexion->prepare($this->strquery);
 				$result->execute();
 	        	$data = $result->fetchall(PDO::FETCH_ASSOC);
+				$result->closeCursor();
 	        	return $data;
 
 			} catch (Exception $e) {
@@ -95,14 +101,16 @@
 			$this->arrVAlues = $arrValues;
 			$update = $this->conexion->prepare($this->strquery);
 			$resExecute = $update->execute($this->arrVAlues);
+			$update->closeCursor();
 	        return $resExecute;
 		}
 		//actualizar varios registors
 		public function update_massive(string $query){
 			$this->strquery = $query;
 			$update = $this->conexion->prepare($this->strquery);
-			$update->execute();
-	        return $update; 
+			$resExecute = $update->execute();
+			$update->closeCursor();
+	        return $resExecute; 
 		}
 		//Eliminar un registros
 		public function delete(string $query)
@@ -110,7 +118,13 @@
 			$this->strquery = $query;
         	$result = $this->conexion->prepare($this->strquery);
 			$del = $result->execute();
+			$result->closeCursor();
         	return $del;
+		}
+
+		public function __destruct()
+		{
+			$this->conexion = null;
 		}
 	}
 
