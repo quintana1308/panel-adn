@@ -340,6 +340,9 @@ class DashboardModel extends Mysql
 				$requestDelete = $mysql4->delete($deleteTempDashboardKpi);
 
 				$return = $request_insert;
+			
+				// Liberar recursos y cerrar conexión dinámica
+				unset($mysql4);
 
 				return $return;
 			}

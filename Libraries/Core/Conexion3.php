@@ -19,8 +19,14 @@ class Conexion3{
 	private function __construct(){
 		$connectionString = "mysql:host=".DB_HOST.";dbname=".DB_NAME_WAPI.";charset=".DB_CHARSET;
 		try{
-			$this->conect = new PDO($connectionString, DB_USER, DB_PASSWORD);
-			$this->conect->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+			// Opciones PDO para evitar conexiones persistentes
+			$options = [
+				PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+				PDO::ATTR_PERSISTENT => false,
+				PDO::ATTR_EMULATE_PREPARES => false,
+				PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+			];
+			$this->conect = new PDO($connectionString, DB_USER, DB_PASSWORD, $options);
 		    //echo "conexión exitosa";
 		}catch(PDOException $e){
 			$this->conect = 'Error de conexión';

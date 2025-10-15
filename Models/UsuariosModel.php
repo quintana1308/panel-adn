@@ -74,7 +74,7 @@ class UsuariosModel extends Mysql
 										
 						$selectDashboard = "SELECT * FROM dashboard WHERE ID_DASHBOARD = $dashboardID";
 						$resDashboard = $this->select($selectDashboard);
-	
+
 						// Si no existe, realiza el insert
 						$sqlDashboard = "INSERT INTO user_dashboards (USER_ID, DASHBOARD_ID, DASHBOARD_NAME, ORDER_DASHBOARD) VALUES (?, ?, ?, ?)";
 						$arrDashboardData = array($insertUserId, $dashboardID, $resDashboard['DESCRIPCION'], 1);
@@ -89,6 +89,10 @@ class UsuariosModel extends Mysql
 		}else{
 			$return = "exist";
 		}
+		
+		// Liberar recursos
+		unset($userModel);
+		unset($mysql3);
 		return $return;
 
 	}
@@ -270,6 +274,9 @@ class UsuariosModel extends Mysql
 			}
 		}
 
+		// Liberar recursos
+		unset($userModel);
+		unset($mysql3);
 		return 1;
 	}
 

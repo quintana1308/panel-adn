@@ -64,9 +64,8 @@ class EnterpriseModel extends Mysql
 		$request_insert = $this->insert($query_insert,$arrData);
 
 		if($request_insert)
-		{	
-			
-			$query_insert_2  = "INSERT INTO enterprise(
+	{	
+		$query_insert_2  = "INSERT INTO enterprise(
 									ID,
 									TOKEN,
                                     BD,
@@ -82,12 +81,12 @@ class EnterpriseModel extends Mysql
                                     TOKENPANEL) 
 						VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
-			$arrData_2 = array(
-						$dataIdEnterprise,
-						$token,
-						$bd,
-						$rif,
-						$nombre,
+		$arrData_2 = array(
+					$dataIdEnterprise,
+					$token,
+					$bd,
+					$rif,
+					$nombre,
                         '',
                         '',
                         '',
@@ -99,9 +98,11 @@ class EnterpriseModel extends Mysql
 
 			$request_insert_2 = $mysql3->insert($query_insert_2,$arrData_2);
 
-			$return = $request_insert_2;
-		}
-
+		$return = $request_insert_2;
+	}
+		// Liberar recursos
+		unset($enterpriseModel);
+		unset($mysql3);
 		return $return;
 
 	}
@@ -136,25 +137,27 @@ class EnterpriseModel extends Mysql
 		$arrData = array($token,$bd, $rif, $nombre, $bdSincro, $urlpanel, $tokenpanel, $idEnterprise);
 		$request = $this->update($sql,$arrData);
 
+		$request_2 = 0;
 		if($request){
-			
 			$sql_2 = "UPDATE enterprise SET 
-								TOKEN = ?,
-								BD = ?,
-								RIF = ?,
-								NOMBRE = ?,
-								BDSINCRO = ?,
-								URLPANEL = ?,
-								TOKENPANEL = ?
+							TOKEN = ?,
+							BD = ?,
+							RIF = ?,
+							NOMBRE = ?,
+							BDSINCRO = ?,
+							URLPANEL = ?,
+							TOKENPANEL = ?
 					WHERE ID = ?";
 
 			$arrData_2 = array($token,$bd, $rif, $nombre, $bdSincro, $urlpanel, $tokenpanel, $idEnterprise);
 
 			$update_2 = $mysql3->insert($sql_2,$arrData_2);
 			$request_2 = $update_2;
-
 		}
 
+		// Liberar recursos
+		unset($enterpriseModel);
+		unset($mysql3);
 		return $request_2;
 	}
 
@@ -168,13 +171,16 @@ class EnterpriseModel extends Mysql
 		$sql = "DELETE FROM enterprise WHERE ID = $idEnterprise";
 		$request = $this->delete($sql);
 
+		$request_2 = 0;
 		if($request){
-			
 			$sql_2 = "DELETE FROM enterprise WHERE ID = $idEnterprise";
 			$request_2 = $mysql3->delete($sql_2);
 
 		}
 		
+		// Liberar recursos
+		unset($enterpriseModel);
+		unset($mysql3);
 		return $request_2;
 	}
 
