@@ -620,9 +620,23 @@
                             margin: [0, 0, 0, 40]
                         });
 
-                        // Ajustar el ancho de la tabla al 100%
-                        doc.content[doc.content.length - 1].table.widths = 
-                            Array(doc.content[doc.content.length - 1].table.body[0].length).fill('*');
+                        // Obtener la tabla original
+                        var originalTable = doc.content[doc.content.length - 1];
+                        
+                        // Ajustar el ancho de las columnas proporcionalmente
+                        originalTable.table.widths = 
+                            Array(originalTable.table.body[0].length).fill('*');
+                        
+                        // Envolver la tabla en un layout centrado
+                        doc.content[doc.content.length - 1] = {
+                            table: {
+                                widths: ['*', 'auto', '*'],
+                                body: [
+                                    ['', originalTable, '']
+                                ]
+                            },
+                            layout: 'noBorders'
+                        };
 
                         // Estilos de tabla
                         doc.styles.tableHeader = {

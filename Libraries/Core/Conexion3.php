@@ -24,7 +24,8 @@ class Conexion3{
 				PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
 				PDO::ATTR_PERSISTENT => false,
 				PDO::ATTR_EMULATE_PREPARES => false,
-				PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
+				PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8",
+				PDO::ATTR_TIMEOUT => 30
 			];
 			$this->conect = new PDO($connectionString, DB_USER, DB_PASSWORD, $options);
 		    //echo "conexión exitosa";
@@ -46,12 +47,19 @@ class Conexion3{
 	}
 
 	public function closeConnection(){
-		$this->conect = null;
+		if($this->conect !== null) {
+			$this->conect = null;
+		}
 		self::$instance = null;
 	}
 
 	public function __destruct(){
 		$this->conect = null;
+		self::$instance = null;
+	}
+
+	public function isConnected(){
+		return $this->conect !== null && $this->conect !== 'Error de conexión';
 	}
 }
 

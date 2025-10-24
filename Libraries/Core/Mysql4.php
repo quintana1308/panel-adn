@@ -120,6 +120,20 @@
         	return $del;
 		}
 
+		public function closeConnection()
+		{
+			if($this->conexion !== null) {
+				$this->conexion = null;
+			}
+			// Cerrar la instancia singleton de conexión si existe
+			if(class_exists('Conexion4')) {
+				$conexionInstance = Conexion4::getInstance();
+				if($conexionInstance->isConnected()) {
+					$conexionInstance->closeConnection();
+				}
+			}
+		}
+
 		public function __destruct()
 		{
 			$this->conexion = null;
@@ -128,4 +142,3 @@
 
 
  ?>
-
