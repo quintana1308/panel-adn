@@ -700,6 +700,7 @@
                                 const marker" . $key . " = new google.maps.Marker({
                                     position: " . $value['POSITION'] . " ,
                                     map: map,
+                                    label: '" . $value['LABEL'] ."' ,
                                     icon: `" . media() . "/img/markers/marker_icon-" . $value['ICON'] . ".svg`,
                                     title: `" . $value['TITLE'] . "`,
                                     optimized: false,
